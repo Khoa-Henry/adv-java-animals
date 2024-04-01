@@ -7,10 +7,7 @@ public class GatherUserInput {
     Scanner scanner = new Scanner(System.in);
 
     public GatherUserInput(ArrayList<Talkable> zoo) {
-        String animalType;
-
-        System.out.println("What type of animal do you want to create (Dog or Cat)? (x to be done) ");
-        animalType = scanner.nextLine().toLowerCase();
+        String animalType = "";
 
         do {
             if (animalType.equals("dog")) {
